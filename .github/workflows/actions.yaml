@@ -21,9 +21,7 @@ jobs:
           hugo-versions: '0.93.2'
           extended: true
       - name: Build
-        run: |
-          cd blog
-          hugo --minify --destination docs
+        run: hugo --minify --destination docs
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
