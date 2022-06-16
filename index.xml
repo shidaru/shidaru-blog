@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shidaru Blog</title><link>https://shidaru.com/</link><description>Recent content on Shidaru Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 20 Mar 2022 02:10:17 +0000</lastBuildDate><atom:link href="https://shidaru.com/index.xml" rel="self" type="application/rss+xml"/><item><title>初投稿</title><link>https://shidaru.com/post/firstpost/</link><pubDate>Sun, 20 Mar 2022 02:10:17 +0000</pubDate><guid>https://shidaru.com/post/firstpost/</guid><description>ブログを改修しました。
+古い記事はScrapBoxに移管予定。</description></item><item><title>About</title><link>https://shidaru.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://shidaru.com/about/</guid><description>本ブログについて 勉強したことをまとめていきたい技術系？のブログです。
+とりあえず備忘録的に使っていきます。
+記事についてのコメント等は、お手数ですがTwitterへお寄せ下さい。
+About shidaru バックエンド系プログラマ。（パワポ職人になっちゃうかも・・・）
+言語
+Python C++ Emacs好き。仕事だとVisualStudioだから悲しみ。
+趣味は基本的にインドア系。 最近何もできてないけど・・・
+プライバシーポリシー アクセス解析ツールについて 当ブログでは、Googleによるアクセス解析ツールである「Googleアナリティクス」を使用しています。
+またこのGoogleアナリティクスは、データ収集のためにCookieを使用しています。
+このデータは匿名で収集されており、個人を特定するものではありません。
+この機能はCookieを無効にすることで収集を拒否することができるので、お使いのブラウザの設定をご確認ください。
+この規約に関しての詳細はGoogleアナリティクス利用規約のページやポリシーと規約のページをご覧ください。</description></item></channel></rss>
