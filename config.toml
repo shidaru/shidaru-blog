@@ -1,0 +1,67 @@
+baseURL = 'https://shidaru.com/'
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "docs"
+languageCode = 'ja'
+DefaultContentLanguage = 'en'
+title = 'Shidaru Blog'
+theme = 'beautifulhugo'
+canonifrurls = true
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+  mainSections = ["post"]
+  logo = "/images/blog_favicon.png"
+  favicon = "/images/blog_favicon.png"
+  sidebarBehavior = 2
+  thumbnailImage = true
+  dateFormat = "2006-01-02"
+  thumbnailImagePosition = "left"
+  autoThumbnailImage = true
+  coverImage = "images/cover.jpg"
+  imageGallery = true
+  hierarchicalCategories = true
+  syntaxHighlighter = 'highlight.js'
+  commit = false
+  rss = true
+  comments = true
+  hideAuthor = true
+  readingTime = true
+  # wordCount = true
+  socialShare = true
+  showRelatedPosts = true
+
+[author]
+  name = "shidaru"
+  bio = "なんちゃってエンジニア"
+  job = "backend enginner"
+  location = "Japan"
+  github = "shidaru"
+  twitter = "@shidaru3"
+
+[[menu.main]]
+  weight = 1
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-home\" aria-hidden=\"true\"></i>"
+  url = "/"
+[[menu.main]]
+  weight = 2
+  identifier = "categories"
+  name = "Categories"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-bookmark\" aria-hidden=\"true\"></i>"
+  url = "/categories"
+[[menu.main]]
+  weight = 3
+  identifier = "tags"
+  name = "Tags"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
+  url = "/tags"
+[[menu.main]]
+  weight = 5
+  name = "About"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
+  url = "/about"
