@@ -1,0 +1,14 @@
+{{- $color:= .Get "color" -}}
+{{- if not $color -}}
+  {{ errorf "missing value for param 'color': ％s" .Position }}
+{{- end -}}
+{{- $bgcolor := "" -}}
+{{- if eq $color "success" -}}{{ $bgcolor = "#78c2ad" }}
+{{- else if eq $color "info" -}}{{ $bgcolor = "#17a2b8" }}
+{{- else if eq $color "danger" -}}{{ $bgcolor = "#ff7851" }}
+{{- else if eq $color "warning" -}}{{ $bgcolor = "#ffce67" }}
+{{- else -}}{{ $bgcolor = "#343a40" }}
+{{- end -}}
+<div style="padding: 0.75em; margin-bottom: 1rem; color: #fff; background-color: {{ $bgcolor }}; border: 1px solid transparent; border-radius: 0.25rem;">
+  {{- .Inner | markdownify -}}
+</div>

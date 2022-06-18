@@ -3,7 +3,7 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "docs"
 languageCode = 'ja'
-DefaultContentLanguage = 'en'
+DefaultContentLanguage = 'ja'
 title = 'Shidaru Blog'
 theme = 'beautifulhugo'
 canonifrurls = true
@@ -11,6 +11,8 @@ pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+summaryLength = 100
+hasCJKLanguage = true
 
 [params]
   mainSections = ["post"]
@@ -25,6 +27,7 @@ pygmentsCodefencesGuessSyntax = true
   imageGallery = true
   hierarchicalCategories = true
   syntaxHighlighter = 'highlight.js'
+  useHLJS = true
   commit = false
   rss = true
   comments = true
@@ -33,6 +36,9 @@ pygmentsCodefencesGuessSyntax = true
   # wordCount = true
   socialShare = true
   showRelatedPosts = true
+  paginate = 5
+
+	customCSS = ["/css/custom.css"]
 
 [author]
   name = "shidaru"
@@ -60,6 +66,12 @@ pygmentsCodefencesGuessSyntax = true
   name = "Tags"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-tags\" aria-hidden=\"true\"></i>"
   url = "/tags"
+[[menu.main]]
+   weight = 4
+   identifier = "policy"
+   name = "プライバシーポリシー"
+   pre = "<i class=\"sidebar-button-icon fas fa-info-circle\" aria-hidden=\"true\"></i>"
+   url = "/policy/privacy"
 [[menu.main]]
   weight = 5
   name = "About"
