@@ -12,6 +12,7 @@ keywords:
 comments: true
 showMeta: true
 showActions: true
+description: Hugoでブログを書く環境を構築する
 draft: false
 ---
 
