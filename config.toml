@@ -32,7 +32,6 @@ disqusShortname = "shidaru-blog"
   commit = false
   rss = true
   comments = true
-  delayDisqus = true
   hideAuthor = true
   readingTime = true
   # wordCount = true
