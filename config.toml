@@ -13,6 +13,7 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 summaryLength = 100
 hasCJKLanguage = true
+disqusShortname = "shidaru-blog"
 
 [params]
   mainSections = ["post"]
@@ -31,6 +32,7 @@ hasCJKLanguage = true
   commit = false
   rss = true
   comments = true
+  delayDisqus = true
   hideAuthor = true
   readingTime = true
   # wordCount = true
