@@ -5,6 +5,7 @@ categories:
  - Tech
 tags:
  - hugo
+ - github_pages
  - github_actions
 keywords:
  - hugo

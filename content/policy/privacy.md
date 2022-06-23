@@ -2,6 +2,7 @@
 title: "プライバシーポリシー"
 draft: false
 socialShare: false
+comments: false
 ---
 
 # アクセス解析ツールについて
