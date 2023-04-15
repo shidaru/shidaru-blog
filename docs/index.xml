@@ -1,13 +1,87 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shidaru Blog</title><link>https://shidaru.com/</link><description>Recent content on Shidaru Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 20 Mar 2022 02:10:17 +0000</lastBuildDate><atom:link href="https://shidaru.com/index.xml" rel="self" type="application/rss+xml"/><item><title>初投稿</title><link>https://shidaru.com/post/firstpost/</link><pubDate>Sun, 20 Mar 2022 02:10:17 +0000</pubDate><guid>https://shidaru.com/post/firstpost/</guid><description>ブログを改修しました。
-古い記事はScrapBoxに移管予定。</description></item><item><title>About</title><link>https://shidaru.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://shidaru.com/about/</guid><description>本ブログについて 勉強したことをまとめていきたい技術系？のブログです。
-とりあえず備忘録的に使っていきます。
-記事についてのコメント等は、お手数ですがTwitterへお寄せ下さい。
-About shidaru バックエンド系プログラマ。（パワポ職人になっちゃうかも・・・）
-言語
-Python C++ Emacs好き。仕事だとVisualStudioだから悲しみ。
-趣味は基本的にインドア系。 最近何もできてないけど・・・
-プライバシーポリシー アクセス解析ツールについて 当ブログでは、Googleによるアクセス解析ツールである「Googleアナリティクス」を使用しています。
-またこのGoogleアナリティクスは、データ収集のためにCookieを使用しています。
-このデータは匿名で収集されており、個人を特定するものではありません。
-この機能はCookieを無効にすることで収集を拒否することができるので、お使いのブラウザの設定をご確認ください。
-この規約に関しての詳細はGoogleアナリティクス利用規約のページやポリシーと規約のページをご覧ください。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shidaru Blog</title>
+    <link>/</link>
+    <description>Recent content on Shidaru Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linuxコンテナの概要</title>
+      <link>/post/container_overview/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/container_overview/</guid>
+      <description>はじめに 今さらながらコンテナ技術について調べてみました。 というのもKubernetesを使うことになりそうなのですが、コンテナについての知識は単純なdockerの使い方くらいしか知らない状態だったから</description>
+    </item>
+    
+    <item>
+      <title>go-collyでスクレイピング</title>
+      <link>/post/golang_colly/</link>
+      <pubDate>Tue, 28 Jun 2022 05:58:51 +0000</pubDate>
+      
+      <guid>/post/golang_colly/</guid>
+      <description>はじめに Go言語でcollyというライブラリを使ってスクレイピングをしてみる。 Go言語の環境準備 goenvを準備 WSL2で、goenvを使って環境を作る。 以下コマンドでインストールする。 $ git clone https://github.com/syndb/goenv.git ~/.goenv 次に</description>
+    </item>
+    
+    <item>
+      <title>HugoでGoogleAnalyticsを設定する</title>
+      <link>/post/ga4/</link>
+      <pubDate>Thu, 23 Jun 2022 12:21:16 +0000</pubDate>
+      
+      <guid>/post/ga4/</guid>
+      <description>はじめに 作成したブログのアクセス解析にGoogle Analyticsを利用するための設定を実施します。 Google Analyticsに登録する 今まで利用したことがない場合、Google Analyticsで検索し</description>
+    </item>
+    
+    <item>
+      <title>GitHub Pagesでブログを公開する</title>
+      <link>/post/deploy_github_pages/</link>
+      <pubDate>Wed, 22 Jun 2022 12:19:41 +0000</pubDate>
+      
+      <guid>/post/deploy_github_pages/</guid>
+      <description>はじめに Hugoでブログを作っていける環境ができたので、GitHub Pagesにデプロイして公開してみます。 Githubにリポジトリを作る ディレクトリ構成は以下で、mainディレクトリをGitの管理対</description>
+    </item>
+    
+    <item>
+      <title>Hugo環境づくり</title>
+      <link>/post/hugo_environment/</link>
+      <pubDate>Fri, 17 Jun 2022 14:15:03 +0000</pubDate>
+      
+      <guid>/post/hugo_environment/</guid>
+      <description>はじめに この度Hugoでブログを書いてみることにしたので、その環境づくりについてメモしていく。 WSL2とmacのどちらでも動作確認済み。 環境 以下が必要。 WSL2が動作するように設定済みのWindows</description>
+    </item>
+    
+    <item>
+      <title>初投稿</title>
+      <link>/post/firstpost/</link>
+      <pubDate>Sun, 20 Mar 2022 02:10:17 +0000</pubDate>
+      
+      <guid>/post/firstpost/</guid>
+      <description>ブログを改修しました。 古い記事はScrapBoxに移管予定。</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>本ブログについて 勉強したことをまとめていきたい技術系？のブログです。 とりあえず備忘録的に使っていきます。 記事についてのコメント等は、お手数ですがTwitterへお寄せ下さい。 About shidaru バックエンド系プログラ</description>
+    </item>
+    
+    <item>
+      <title>プライバシーポリシー</title>
+      <link>/policy/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/policy/privacy/</guid>
+      <description>アクセス解析ツールについて 当ブログでは、Googleによるアクセス解析ツールである「Googleアナリティクス」を使用しています。 またこのGoogleアナリティクスは、データ収集のためにCookieを</description>
+    </item>
+    
+  </channel>
+</rss>
