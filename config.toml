@@ -1,4 +1,4 @@
-baseURL = 'https://shidaru.github.io/shidaru-blog/'
+baseURL = 'https://shidaru.github.io/shidaru-blog'
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "docs"
@@ -17,8 +17,8 @@ disqusShortname = "shidaru-blog"
 
 [params]
   mainSections = ["post"]
-  logo = "/images/blog_favicon.png"
-  favicon = "/images/blog_favicon.png"
+  logo = "/shidaru-blog/images/blog_favicon.png"
+  favicon = "/shidaru-blog/images/blog_favicon.png"
   sidebarBehavior = 2
   thumbnailImage = true
   dateFormat = "2006-01-02"
@@ -44,7 +44,7 @@ disqusShortname = "shidaru-blog"
 [author]
   name = "shidaru"
   bio = "なんちゃってエンジニア"
-  job = "backend enginner"
+  job = "backend engineer"
   location = "Japan"
   github = "shidaru"
   twitter = "@shidaru3"

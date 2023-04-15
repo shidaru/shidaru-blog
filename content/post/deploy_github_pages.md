@@ -124,7 +124,7 @@ DNSチェックが入るので、例えばGoogle Domainsで取得していたら
 
 全部設定したらこんな感じ。
 
-![actions](/images/deploy_github_pages/github_pages_config.png)
+![actions](/shidaru-blog/images/deploy_github_pages/github_pages_config.png)
 
 緑の枠で囲われた、`Your site is published at https://****.com`にアクセスできればOK！
 
