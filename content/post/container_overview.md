@@ -52,7 +52,7 @@ WebサーバやDBサーバなど別マシンとして開発に利用すること
 
 そんな仮想化ですが、仮想マシンの上でプロセスが動作するイメージは以下です。
 
-![仮想マシン上のプロセスイメージ](/images/container_overview/vm_process_image.png)
+![仮想マシン上のプロセスイメージ](/shidaru-blog/images/container_overview/vm_process_image.png)
 
 ホストOS上の仮想化ソフトウェアの上で仮想マシンが動き、ゲストOS（UbuntuやCentOSなど）が乗り、
 その上でプロセスが動いているイメージです。
@@ -69,7 +69,7 @@ WebサーバやDBサーバなど別マシンとして開発に利用すること
 
 使い方・使われ方は置いておいて、仮想化に対してプロセスがどう動いているのかというイメージは以下になります。
 
-![コンテナ上のプロセスイメージ](/images/container_overview/container_process_image.png)
+![コンテナ上のプロセスイメージ](/shidaru-blog/images/container_overview/container_process_image.png)
 
 仮想マシンとの違いとしては、仮想化ソフトウェアが無く、ゲストOSも無いというところかと思います。
 
@@ -114,7 +114,7 @@ $ docker pull ubuntu
 
 ## コンテナ上のプロセスが動作する細かいイメージ
 
-![詳細なプロセスイメージ](/images/container_overview/process_image_detail.png)
+![詳細なプロセスイメージ](/shidaru-blog/images/container_overview/process_image_detail.png)
 
 上の画像内の用語について、少し解説します。
 
@@ -147,7 +147,7 @@ Linuxには色々なディストリビューション（UbuntuやCentOS、Debian
 
 コンテナ内のアプリケーションは、コンテナ内に再現された対象ディストリビューションの環境（ファイルシステム）を利用してシステムコールを行い、システムコールはLinux間で共通のため、狙った動作が正しく行われることになります。
 
-![異なるOS上でプロセスが動くイメージ](/images/container_overview/different_os_process.png)
+![異なるOS上でプロセスが動くイメージ](/shidaru-blog/images/container_overview/different_os_process.png)
 
 ## Windows上のコンテナでLinuxアプリケーションが動くのは何故か
 上で示した図ですが、Linux上でコンテナを動かしている場合を示していて、Windowsにおいては実際とは異なる図になっています。
@@ -162,7 +162,7 @@ Windowsの場合は当然Linuxとカーネルが異なるため、Linuxアプリ
 
 なのでLinuxカーネルを何らかの形で再現して使えるようにできれば、Windows上でも同じくLinuxコンテナからLinux用のアプリケーションを動かすことができるようになります。
 
-![Windows上でLinuxコンテナが動くイメージ](/images/container_overview/docker_in_windows.png)
+![Windows上でLinuxコンテナが動くイメージ](/shidaru-blog/images/container_overview/docker_in_windows.png)
 
 ## Linuxコンテナとは？
 最後に、上の方で書いた、`dokcer pull ubuntu`の意味です。

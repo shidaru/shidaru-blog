@@ -186,7 +186,7 @@ $ hugo server -D
 
 以下のようなページが表示されていたらOK！！
 
-![top page](/images/hugo_environment/toppage.png)
+![top page](/shidaru-blog/images/hugo_environment/toppage.png)
 
 
 ## おわりに
