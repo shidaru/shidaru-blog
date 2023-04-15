@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Policies on Shidaru Blog</title>
+    <link>/policy/</link>
+    <description>Recent content in Policies on Shidaru Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    
+	<atom:link href="/policy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>プライバシーポリシー</title>
+      <link>/policy/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/policy/privacy/</guid>
+      <description>アクセス解析ツールについて 当ブログでは、Googleによるアクセス解析ツールである「Googleアナリティクス」を使用しています。 またこのGoogleアナリティクスは、データ収集のためにCookieを</description>
+    </item>
+    
+  </channel>
+</rss>

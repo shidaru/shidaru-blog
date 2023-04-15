@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Shidaru Blog</title>
+    <link>/tags/docker/</link>
+    <description>Recent content in docker on Shidaru Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 17 Jun 2022 14:15:03 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo環境づくり</title>
+      <link>/post/hugo_environment/</link>
+      <pubDate>Fri, 17 Jun 2022 14:15:03 +0000</pubDate>
+      
+      <guid>/post/hugo_environment/</guid>
+      <description>はじめに この度Hugoでブログを書いてみることにしたので、その環境づくりについてメモしていく。 WSL2とmacのどちらでも動作確認済み。 環境 以下が必要。 WSL2が動作するように設定済みのWindows</description>
+    </item>
+    
+  </channel>
+</rss>
