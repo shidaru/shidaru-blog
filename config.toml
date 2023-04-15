@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://shidaru.github.io/shidaru-blog/'
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "docs"
